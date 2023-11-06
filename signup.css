@@ -1,0 +1,204 @@
+body{
+
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+
+.container-form{
+
+    width: 60%;
+    background-color: lightcyan;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+/* My Social Buttons  */
+
+.social-btn{
+    background-color: #344872;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.social-btn:nth-child(2){
+
+    background-color: rgb(112, 112, 202);
+}
+
+.social-btn:nth-child(3){
+
+    background-color: rgb(231, 105, 105);
+}
+
+
+/* My Divider */
+
+.divider{
+
+    display: flex;
+    align-items: center;
+    margin: 16px;
+}
+
+.divider::before, .divider::after{
+    content: "";
+    padding: 0.5px;
+    background-color: gray;
+    flex: 1;
+    margin: 2px;
+}
+
+
+.divider-or{
+    background-color: rgb(212, 202, 202);
+    padding: 15px 15px;
+    border-radius: 50%;
+    border: 1px solid lightblue;
+}
+
+
+/* this is my Username */
+input[type=text]{
+
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    text-indent: 5px;
+}
+
+input[type=text]:focus{
+
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    outline: none;
+    
+}
+
+
+::placeholder{
+
+    font-size: 18px;
+    color: lightblue;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px 25px;
+}
+
+.user{
+
+    position: absolute;
+    top: 10px;
+    left: 24%;
+    font: 25px;
+}
+
+
+.form-user{
+
+    position: relative;
+}
+
+/* 
+My Email is here */
+input[type=email]{
+
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    text-indent: 5px;
+    margin-top: 15px;
+}
+
+input[type=email]:focus{
+
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    outline: none;
+    position: relative;
+    margin-top: 25px;
+}
+
+.email-user{
+
+    position: absolute;
+    top: 40%;
+    left: 24%;
+    font: 25px;
+}
+
+
+.email{
+
+    position: relative;
+}
+
+/* My tel is here */
+
+input[type=tel]{
+
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    text-indent: 5px;
+    margin-top: 15px;
+}
+
+input[type=tel]:focus{
+
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    outline: none;
+    
+}
+
+
+/* My Password is here */
+
+input[type=password]{
+
+    width: 50%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    text-indent: 5px;
+    margin-top: 15px;
+}
+
+input[type=password]:focus{
+
+    border-radius: 15px;
+    border: 1px solid lightblue;
+    outline: none;
+    
+}
+
+/* My Submit btn is here */
+
+input[type=submit]{
+    background-color: rgb(20, 201, 201);
+    width: 40%;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    text-indent: 5px;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+@media (max-width=1000px) {
+    .container-form{
+        width:100%
+    }
+
+    
+}
